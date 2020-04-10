@@ -76,7 +76,7 @@ fs.readdirSync(dirPath).forEach(file => {
                 checkDir(newFilePath);
                 moveFile(dirPath, newFilePath, file);
                 break;
-            case "jpeg": 
+            case ".jpeg": 
                 newFilePath = dirPath + "/" + "jpg";
                 checkDir(newFilePath);
                 moveFile(dirPath, newFilePath, file);
